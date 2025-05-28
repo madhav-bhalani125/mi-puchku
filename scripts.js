@@ -181,7 +181,7 @@ function handleSurprise(conversation) {
         clickHereButton.style.display = "none"; // Hide the button
         showPolaroidSlider(); // Show the Polaroid slider
         //add a audio which plays when polaroid displayed
-        const audio = new Audio("./SESAME.mp3");
+        const audio = new Audio("/SESAME.mp3");
         audio.play();
       });
 
