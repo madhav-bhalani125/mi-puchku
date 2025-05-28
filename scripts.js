@@ -227,7 +227,7 @@ function showFeelingsPrompt() {
 
   const promptText = document.createElement("div");
   promptText.id = "feelings-prompt";
-  promptText.textContent = "DO YOU WANNA KNOW HOW MUCH SHE MEANS TO ME?";
+  promptText.textContent = " ";
   promptText.style.textAlign = "center";
   promptText.style.fontSize = "1.5rem";
   promptText.style.marginTop = "20px";
@@ -258,7 +258,7 @@ function displayFeelings() {
     "im sorry hum office ka vajah se kabhi kabhi aapse baat nahi kar pata hun",
     "Idk if you know this",
     "But im so glad that i met you <3",
-    "Aapko abhi humko batana ho kya hua toh bata sakte ho😚😚😚😚",
+    "Aapko abhi humko batana ho kya hua toh bata sakte ho😚😚😚",
     "❤️",
     "❤️",
     "❤️",
@@ -285,7 +285,7 @@ function displayFeelings() {
     feelingText.style.padding = "10px 20px";
     feelingText.style.backgroundColor = "rgb(255, 236, 236, 0.6)";
     feelingText.style.borderRadius = "5px";
-    feelingText.style.fontFamily = "'Vibur', cursive";
+    feelingText.style.fontFamily = "'Oswald', sans-serif";
     feelingText.style.fontWeight = "400";
     feelingText.style.fontStyle = "normal";
 
